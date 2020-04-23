@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 
 
 <!-- toc -->
@@ -25,8 +20,9 @@ License: GPLv3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
-Imports: data.table, IRanges, mediation 
-```
+Imports: data.table,
+    IRanges,
+    mediation ```
 
 
 # `chr_sort`: Chromosome Sort
