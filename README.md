@@ -4,7 +4,8 @@
 ## Overview
 
 `GeneticMediation` provides methods for conducting causal mediation analysis on data from the ROSMAP study.
-It also provides methods for cleaning, matching, and preparing the data for causal mediation analysis.
+
+It also provides methods for cleaning, matching, and preparing the data for analysis.
 
 ## Installation
 
