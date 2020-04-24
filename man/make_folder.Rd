@@ -10,9 +10,6 @@ make_folder(path)
 \item{path}{path for new folder}
 }
 \description{
-Make a folder only if the folder does not exist
-}
-\examples{
-make_folder_function()
+Make a folder only if the folder does not already exist
 }
 \keyword{folder}

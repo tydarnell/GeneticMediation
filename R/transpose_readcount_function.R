@@ -1,13 +1,12 @@
 #' Transpose Readcount
 #'
-#' Transpose ChIP-seq Reacount dataframe and match project id
-#' @param readcount ChIP-seq readcount dataframe
+#' @description Read in and transpose ChIP-seq Readcount dataframe and match project id
+#' @param readcount.path ChIP-seq readcount dataframe file path
 #' @keywords transpose readcount
 #' @export
-#' @examples
-#' transpose_readcount_function()
 
-transpose_readcount = function(readcount) {
+transpose_readcount <- function(readcount.path) {
+    readcount=suppressWarnings(data.table::fread(readcount.path))
     projid = as.numeric(colnames(readcount)[-1])
     colnames(readcount) = c("DomainID", projid)
     peaks = readcount$DomainID
@@ -15,5 +14,6 @@ transpose_readcount = function(readcount) {
     readcount.t$projid = projid
     readcount.t = last_to_first(readcount.t)
     colnames(readcount.t) = c("projid", peaks)
+    rownames(readcount.t)=NULL
     readcount.t
 }

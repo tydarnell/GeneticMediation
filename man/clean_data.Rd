@@ -4,20 +4,14 @@
 \alias{clean_data}
 \title{Clean Data}
 \usage{
-clean_data(snp.info, peak.info)
+clean_data(snp.path, peak.path)
 }
 \arguments{
-\item{snp.info}{SNP information dataframe}
+\item{snp.path}{path to SNP information dataframe}
 
-\item{peak.info}{Peak annotation dataframe}
+\item{peak.path}{path to Peak annotation dataframe}
 }
 \description{
-Clean snp.info and peak.info data and save as RData file
+Clean snp.info, peak.info data and save as data/chipseq.RData
 }
-\examples{
-clean_data_function()
-}
-\keyword{SNP}
-\keyword{clean}
 \keyword{data}
-\keyword{peak}

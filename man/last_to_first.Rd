@@ -10,10 +10,7 @@ last_to_first(df)
 \item{df}{dataframe}
 }
 \description{
-Make the last column the first column
-}
-\examples{
-last_to_first_function()
+Make the last column the first column in a dataframe
 }
 \keyword{column}
 \keyword{first}

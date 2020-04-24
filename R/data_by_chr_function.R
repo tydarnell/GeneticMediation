@@ -1,15 +1,14 @@
 #' Data by Chromosome
 #'
-#' Make RData file containing snp.info, peak.info for each chromosome
-#' @param chrs Character vector of chromosomes names with Peak-SNP matches
+#' @description save snp.info, peak.info for each chromosome
+#'    as "data/chipseq_\code{chr}.RData"
+#' @param chrs Character vector of chromosomes names
 #' @param snps SNP information dataframe
 #' @param peaks Peak information dataframe
-#' @keywords Peak SNP data chromosome
+#' @keywords data
 #' @export
-#' @examples
-#' data_by_chr_function()
 
-data_by_chr = function(chrs, snps, peaks) {
+data_by_chr <- function(chrs, snps, peaks) {
     for (chr in chrs) {
         peak.info = subset(peaks, Chr == chr)
         snp.info = subset(snps, Chr == chr)

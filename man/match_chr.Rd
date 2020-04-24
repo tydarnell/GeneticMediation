@@ -14,9 +14,6 @@ match_chr(snp.info, peak.info)
 \description{
 Match Peaks and SNPs in a chromosome
 }
-\examples{
-match_chr_function()
-}
 \keyword{SNP}
 \keyword{match}
 \keyword{peak}

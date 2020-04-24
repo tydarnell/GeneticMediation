@@ -10,10 +10,7 @@ lu(x)
 \item{x}{vector}
 }
 \description{
-Get the length of unique values of a vector
-}
-\examples{
-lu_function()
+Get the length of unique values in a vector
 }
 \keyword{length}
 \keyword{unique}

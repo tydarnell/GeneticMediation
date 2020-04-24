@@ -4,16 +4,13 @@
 \alias{transpose_readcount}
 \title{Transpose Readcount}
 \usage{
-transpose_readcount(readcount)
+transpose_readcount(readcount.path)
 }
 \arguments{
-\item{readcount}{ChIP-seq readcount dataframe}
+\item{readcount.path}{ChIP-seq readcount dataframe file path}
 }
 \description{
-Transpose ChIP-seq Reacount dataframe and match project id
-}
-\examples{
-transpose_readcount_function()
+Read in and transpose ChIP-seq Readcount dataframe and match project id
 }
 \keyword{readcount}
 \keyword{transpose}

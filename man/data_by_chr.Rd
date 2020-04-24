@@ -7,19 +7,14 @@
 data_by_chr(chrs, snps, peaks)
 }
 \arguments{
-\item{chrs}{Character vector of chromosomes names with Peak-SNP matches}
+\item{chrs}{Character vector of chromosomes names}
 
 \item{snps}{SNP information dataframe}
 
 \item{peaks}{Peak information dataframe}
 }
 \description{
-Make RData file containing snp.info, peak.info for each chromosome
+save snp.info, peak.info for each chromosome
+   as "data/chipseq_\code{chr}.RData"
 }
-\examples{
-data_by_chr_function()
-}
-\keyword{Peak}
-\keyword{SNP}
-\keyword{chromosome}
 \keyword{data}

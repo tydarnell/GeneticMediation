@@ -1,12 +1,10 @@
 #' Length Unique
 #'
-#' Get the length of unique values of a vector
+#' @description Get the length of unique values in a vector
 #' @param x vector
 #' @keywords length unique
 #' @export
-#' @examples
-#' lu_function()
 
-lu = function(x) {
-    length(unique(x))
+lu <- function(x) {
+      length(unique(x))
 }
