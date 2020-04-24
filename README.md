@@ -1,5 +1,5 @@
 
-# GeneticMediaiton
+# GeneticMediation
 
 ## Overview
 
