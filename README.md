@@ -1,5 +1,5 @@
 
-# GeneticMediation
+# GeneticMediation <img src='inst/figures/imgfile.png' align="right" height="139" />
 
 ## Overview
 
