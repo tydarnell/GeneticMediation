@@ -21,12 +21,3 @@ with:
 # install.packages("devtools")
 devtools::install_github("tydarnell/GeneticMediation")
 ```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(GeneticMediation)
-## basic example code
-```
