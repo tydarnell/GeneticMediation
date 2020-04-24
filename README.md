@@ -19,6 +19,4 @@ with:
 devtools::install_github("tydarnell/GeneticMediation")
 ```
 
-## Documentation
-
 
