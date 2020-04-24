@@ -6,7 +6,7 @@
 
 It also provides methods for cleaning, matching, and preparing the data for analysis.
 
-The documentation can be viewed [here](https://github.com/tydarnell/GeneticMediation/GeneticMediation_0.1.0.pdf)
+The documentation can be viewed [here](https://github.com/tydarnell.github.io/GeneticMediation/GeneticMediation_0.1.0.pdf)
 
 ## Installation
 
