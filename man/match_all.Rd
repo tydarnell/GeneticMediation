@@ -14,8 +14,8 @@ match_all(snp.info, peak.info, chrs)
 \item{chrs}{character vector of chromosome names}
 }
 \description{
-Match SNPs and Peaks in all chromosomes,
-save as "data/matches.csv"
+Match SNPs and Peaks in all chromosomes and 
+  return dataframe of matches
 }
 \keyword{SNP}
 \keyword{match}

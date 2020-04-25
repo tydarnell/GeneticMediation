@@ -1,7 +1,7 @@
 #' Match All Chromosomes
 #'
-#' @description Match SNPs and Peaks in all chromosomes,
-#' save as "data/matches.csv"
+#' @description Match SNPs and Peaks in all chromosomes and 
+#'   return dataframe of matches
 #' @param snp.info SNP information
 #' @param peak.info Peak information
 #' @param chrs character vector of chromosome names
@@ -17,5 +17,5 @@ match_all <- function(snp.info, peak.info, chrs) {
         match.list[[chr]] = chr_match
     }
     matches = data.table::rbindlist(match.list, idcol = "Chr")
-    readr::write_csv(matches,"data/matches.csv")
+    matches
 }
