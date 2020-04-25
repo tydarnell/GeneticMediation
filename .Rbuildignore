@@ -2,3 +2,6 @@
 ^\.Rproj\.user$
 _config.yml
 GeneticMediation_0.1.0.pdf
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
