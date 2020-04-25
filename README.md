@@ -1,4 +1,5 @@
-# GeneticMediation 
+
+# GeneticMediation # pkgdown &lt;img src="man/figures/logo.png" align="right" /&gt;
 
 ## Overview
 
