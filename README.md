@@ -1,4 +1,4 @@
-# GeneticMediation <img src='https://tydarnell.github.io/GeneticMediation/docs/reference/figures/logo.png' align="right" height="139" /></a>
+# GeneticMediation <img src='https://tydarnell.github.io/GeneticMediation/man/figures/logo.png' align="right" height="139" /></a>
 
 ## Overview
 
