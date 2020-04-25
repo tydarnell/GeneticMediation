@@ -1,4 +1,4 @@
-# GeneticMediation <img src='inst/figures/imgfile.png' align="right" height="139" />
+# GeneticMediation <img src='docs/man/figures/imgfile.png' align="right" height="139" />
 
 ## Overview
 
