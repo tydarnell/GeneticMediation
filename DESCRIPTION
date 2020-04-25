@@ -1,7 +1,7 @@
 Package: GeneticMediation
 Type: Package
 Title: Genetic Causal Mediation
-Version: 0.1.0
+Version: 1.1.0
 License: LGPL-3
 URL: https://tydarnell.github.io/GeneticMediation,
     https://github.com/tydarnell/GeneticMediation
