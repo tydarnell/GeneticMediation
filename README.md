@@ -1,4 +1,6 @@
-# GeneticMediation <img src='man/figures/imgfile.png' align="right" height="139" />
+# pkgdown &lt;img src="man/figures/logo.png" align="right" /&gt;
+
+# GeneticMediation 
 
 ## Overview
 
