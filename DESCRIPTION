@@ -2,7 +2,7 @@ Package: GeneticMediation
 Type: Package
 Title: Genetic Causal Mediation
 Version: 1.1.0
-License: LGPL-3
+License: GPL-3
 URL: https://tydarnell.github.io/GeneticMediation,
     https://github.com/tydarnell/GeneticMediation
 Authors@R: person("Ty", "Darnell", role = c("aut", "cre"), email = "tydarnell@gmail.com")
