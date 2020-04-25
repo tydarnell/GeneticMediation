@@ -3,6 +3,8 @@ Type: Package
 Title: Genetic Causal Mediation
 Version: 0.1.0
 License: GPL-3
+URL: https://tydarnell.github.io/GeneticMediation,
+    https://github.com/tydarnell/GeneticMediation
 Authors@R: person("Ty", "Darnell", role = c("aut", "cre"), email = "tydarnell@gmail.com")
 Author: Ty Darnell [aut, cre]
 Maintainer: Ty Darnell <tydarnell@gmail.com>
@@ -13,4 +15,3 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
 Imports: data.table, IRanges, mediation, readr, stats
-URL: https://tydarnell.github.io/GeneticMediation/
