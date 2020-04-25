@@ -1,4 +1,4 @@
-# GeneticMediation <img src='docs/reference/figures/logo.png' align="right" height="139" /></a>
+# GeneticMediation <img src='reference/figures/logo.png' align="right" height="139" /></a>
 
 ## Overview
 
