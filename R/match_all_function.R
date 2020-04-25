@@ -17,5 +17,7 @@ match_all <- function(snp.info, peak.info, chrs) {
         match.list[[chr]] = chr_match
     }
     matches = data.table::rbindlist(match.list, idcol = "Chr")
+    matches$snp.name=as.character(matches$snp.name)
+    matches$peak.name=as.character(matches$peak.name)
     matches
 }
