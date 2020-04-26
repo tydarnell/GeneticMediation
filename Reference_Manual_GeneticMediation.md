@@ -2,6 +2,8 @@
 
 <!-- toc -->
 
+# GeneticMediation <img src='man/figures/logo.png' align="right" height="139" />
+
 April 26, 2020
 
 # DESCRIPTION
@@ -26,7 +28,6 @@ RoxygenNote: 7.1.0
 Imports: BiocManager, data.table, IRanges, mediation, readr, stats
 Suggests: tidyverse
 ```
-
 
 # `chr_numeric`: Chromosome Numeric
 
