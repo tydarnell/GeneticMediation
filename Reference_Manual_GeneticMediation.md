@@ -26,7 +26,7 @@ RoxygenNote: 7.1.0
 Imports: BiocManager, data.table, IRanges, mediation, readr, stats
 Suggests: tidyverse
 ```
-
+# GeneticMediation <img src='man/figures/logo.png' align="right" height="139" />
 
 # `chr_numeric`: Chromosome Numeric
 
