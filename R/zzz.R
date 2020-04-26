@@ -1,6 +1,3 @@
-#' @import BiocManager
-#' @importFrom data.table fread rbindlist
-#' @import IRanges
 #' @importFrom mediation mediate
 #' @importFrom readr write_csv
 NULL

@@ -4,10 +4,12 @@
 \alias{data_prep_spg}
 \title{SNP-Peak-Gene Data Prep Helper}
 \usage{
-data_prep_spg(chr)
+data_prep_spg(chr, mediator.path)
 }
 \arguments{
 \item{chr}{chromosome name}
+
+\item{mediator.path}{path to mediator folder with mediation_chr#_new.RData files}
 }
 \description{
 Helper function for SNP-Peak-Gene data prep.

@@ -5,11 +5,12 @@
 #' @param chr chromosome name
 #' @param med.data gene mediation data
 #' @param matches SNP-Peak-Gene matches dataframe
+#' @param mediator.path path to mediator folder with mediation_chr#_new.RData files
 #' @keywords data
 #' @export
 
-med.res_spg <- function(chr, med.data, matches) {
-    load(paste("mediator/mediation_", chr, "_new.RData", sep = ""))
+med.res_spg <- function(chr, med.data, matches,mediator.path) {
+    load(paste(mediator.path,"/mediation_", chr, "_new.RData", sep = ""))
     n = ncol(SNP.pc.data)
     SNP.name = colnames(SNP.pc.data)[-c(1, (n - 4):n)]
     med.res.data = med.data

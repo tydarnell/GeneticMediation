@@ -4,7 +4,7 @@
 \alias{med.res_spg}
 \title{SNP-Peak-Gene Mediation Data Prep}
 \usage{
-med.res_spg(chr, med.data, matches)
+med.res_spg(chr, med.data, matches, mediator.path)
 }
 \arguments{
 \item{chr}{chromosome name}
@@ -12,6 +12,8 @@ med.res_spg(chr, med.data, matches)
 \item{med.data}{gene mediation data}
 
 \item{matches}{SNP-Peak-Gene matches dataframe}
+
+\item{mediator.path}{path to mediator folder with mediation_chr#_new.RData files}
 }
 \description{
 Prepare a chromosome SNP-Peak-Gene data for mediation analysis data

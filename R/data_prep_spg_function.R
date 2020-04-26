@@ -4,11 +4,12 @@
 #'    Combine projid, SNPs, PCs, membership, age, gender, peaks, gene and 
 #'    outcome data for a chromosome.
 #' @param chr chromosome name
+#' @param mediator.path path to mediator folder with mediation_chr#_new.RData files
 #' @keywords data prep
 #' @export
 
-data_prep_spg <- function(chr) {
-    load(paste("mediator/mediation_", chr, "_new.RData", sep = ""))
+data_prep_spg <- function(chr,mediator.path) {
+    load(paste(mediator.path,"/mediation_", chr, "_new.RData", sep = ""))
     load(paste("data/peak.data_", chr, ".RData", sep = ""))
     SNP.cov.data = merge(SNP.pc.data, phenotype.data[, c("projid", "plaq_n_sqr")], by = "projid", 
         all = F)

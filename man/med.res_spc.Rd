@@ -4,12 +4,14 @@
 \alias{med.res_spc}
 \title{SNP-Peak-Clinical Mediation Data Prep}
 \usage{
-med.res_spc(chr, all_matches)
+med.res_spc(chr, all_matches, mediator.path)
 }
 \arguments{
 \item{chr}{chromosome name}
 
 \item{all_matches}{dataframe of SNP-Peak matches for all chromosomes}
+
+\item{mediator.path}{path to mediator folder with mediation_chr#_new.RData files}
 }
 \description{
 Prepare a chromosome of SNP-Peak-Clinical data for mediation analysis
