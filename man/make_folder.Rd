@@ -7,7 +7,7 @@
 make_folder(path)
 }
 \arguments{
-\item{path}{path for new folder}
+\item{path}{folder path}
 }
 \description{
 Make a folder only if the folder does not already exist

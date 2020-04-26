@@ -1,7 +1,7 @@
 #' SNP-Peak-Gene Mediation Data Prep
 #'
 #' @description Prepare a chromosome SNP-Peak-Gene data for mediation analysis data
-#' and save as "data/gene.res/res_\code{chr}.RData"
+#' and save as "data/spg.res/res_\code{chr}.RData"
 #' @param chr chromosome name
 #' @param med.data gene mediation data
 #' @param matches SNP-Peak-Gene matches dataframe

@@ -1,7 +1,7 @@
 #' SNPs and Peaks by Chromosome
 #'
 #' @description save snp.info, peak.info for each chromosome
-#'    as "data/chipseq_\code{chr}.RData"
+#'    as "data/chipseq/chipseq_\code{chr}.RData"
 #' @param chrs Character vector of chromosomes names
 #' @param snps SNP information dataframe
 #' @param peaks Peak information dataframe

@@ -15,6 +15,6 @@ med.res_spg(chr, med.data, matches, mediator.path)
 }
 \description{
 Prepare a chromosome SNP-Peak-Gene data for mediation analysis data
-and save as "data/gene.res/res_\code{chr}.RData"
+and save as "data/spg.res/res_\code{chr}.RData"
 }
 \keyword{data}

@@ -15,6 +15,6 @@ snp_peak_bychr(chrs, snps, peaks)
 }
 \description{
 save snp.info, peak.info for each chromosome
-   as "data/chipseq_\code{chr}.RData"
+   as "data/chipseq/chipseq_\code{chr}.RData"
 }
 \keyword{data}
