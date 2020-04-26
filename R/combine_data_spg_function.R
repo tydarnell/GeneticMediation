@@ -1,16 +1,14 @@
-#' SNP-Peak-Gene Data Prep Helper
+#' Combine Data SNP-Peak-Gene
 #'
-#' @description Helper function for SNP-Peak-Gene data prep.
-#'    Combine projid, SNPs, PCs, membership, age, gender, peaks, gene and 
-#'    outcome data for a chromosome.
+#' @description SNP-Peak-Gene Data: combine projid, SNPs, PCs, membership,
+#'   age, gender, peaks, gene and outcome data for a chromosome.
 #' @param chr chromosome name
-#' @param mediator.path path to mediator folder with mediation_chr#_new.RData files
-#' @keywords data prep
+#' @keywords combine data gene
 #' @export
 
-data_prep_spg <- function(chr,mediator.path) {
-    load(paste(mediator.path,"/mediation_", chr, "_new.RData", sep = ""))
-    load(paste("data/peak.data_", chr, ".RData", sep = ""))
+combine_data_spg <- function(chr) {
+    load(paste("data/mediator/mediation_", chr, "_new.RData", sep = ""))
+    load(paste("data/peak.data/peak.data_", chr, ".RData", sep = ""))
     SNP.cov.data = merge(SNP.pc.data, phenotype.data[, c("projid", "plaq_n_sqr")], by = "projid", 
         all = F)
     disease.data = phenotype.data[, c("projid", "plaq_n_sqr")]

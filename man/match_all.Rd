@@ -2,7 +2,7 @@
 % Please edit documentation in R/match_all_function.R
 \name{match_all}
 \alias{match_all}
-\title{Match All Chromosomes}
+\title{Match SNPs Peaks All Chromosomes}
 \usage{
 match_all(snp.info, peak.info, chrs)
 }

@@ -11,7 +11,7 @@
 med_all_spc <- function(chrs, covar, simulations) {
     all.list = vector(mode = "list", length = length(chrs))
     for (chr in chrs) {
-        load(paste("data/med.res/res_", chr, ".RData", sep = ""))
+        load(paste("data/spc.res/res_", chr, ".RData", sep = ""))
         med_dat = med.res.data
         ans = med_chr_spc(matches, med_dat, covar, simulations)
         all.list[[chr]] = ans

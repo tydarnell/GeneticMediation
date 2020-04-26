@@ -1,12 +1,12 @@
-#' Match Chromosome
+#' Match SNPs and Peaks
 #'
-#' @description Match Peaks and SNPs in a chromosome
-#' @param snp.info SNP information
-#' @param peak.info Peak information
+#' @description Match SNPs and Peaks in a chromosome
+#' @param snp.info SNP information for chr
+#' @param peak.info Peak information chr
 #' @keywords match peak SNP
 #' @export
 
-match_chr <- function(snp.info, peak.info) {
+match_snp_peak <- function(snp.info, peak.info) {
     peak.ir = IRanges::IRanges(start = peak.info$start, end = peak.info$end, names = peak.info$DomainID)
     snp.ir = IRanges::IRanges(start = snp.info$start, end = snp.info$end, names = snp.info$snp.name)
     ov = IRanges::findOverlapPairs(snp.ir, peak.ir)

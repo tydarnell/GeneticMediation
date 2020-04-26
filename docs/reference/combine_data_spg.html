@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SNP-Peak-Clinical Mediation Data Prep — med.res_spc • GeneticMediation</title>
+<title>Combine Data SNP-Peak-Gene — combine_data_spg • GeneticMediation</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,9 +46,9 @@
 
 
 
-<meta property="og:title" content="SNP-Peak-Clinical Mediation Data Prep — med.res_spc" />
-<meta property="og:description" content="Prepare a chromosome of SNP-Peak-Clinical data for mediation analysis
-and save as &quot;data/spc.res/res_chr.RData&quot;" />
+<meta property="og:title" content="Combine Data SNP-Peak-Gene — combine_data_spg" />
+<meta property="og:description" content="SNP-Peak-Gene Data: combine projid, SNPs, PCs, membership,
+  age, gender, peaks, gene and outcome data for a chromosome." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -117,17 +117,17 @@ and save as &quot;data/spc.res/res_chr.RData&quot;" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>SNP-Peak-Clinical Mediation Data Prep</h1>
-    <small class="dont-index">Source: <a href='https://github.com/tydarnell/GeneticMediation/blob/master/R/med.res_spc_function.R'><code>R/med.res_spc_function.R</code></a></small>
-    <div class="hidden name"><code>med.res_spc.Rd</code></div>
+    <h1>Combine Data SNP-Peak-Gene</h1>
+    <small class="dont-index">Source: <a href='https://github.com/tydarnell/GeneticMediation/blob/master/R/combine_data_spg_function.R'><code>R/combine_data_spg_function.R</code></a></small>
+    <div class="hidden name"><code>combine_data_spg.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Prepare a chromosome of SNP-Peak-Clinical data for mediation analysis
-and save as "data/spc.res/res_<code>chr</code>.RData"</p>
+    <p>SNP-Peak-Gene Data: combine projid, SNPs, PCs, membership,
+  age, gender, peaks, gene and outcome data for a chromosome.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>med.res_spc</span>(<span class='no'>chr</span>, <span class='no'>all_matches</span>)</pre>
+    <pre class="usage"><span class='fu'>combine_data_spg</span>(<span class='no'>chr</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -135,10 +135,6 @@ and save as "data/spc.res/res_<code>chr</code>.RData"</p>
     <tr>
       <th>chr</th>
       <td><p>chromosome name</p></td>
-    </tr>
-    <tr>
-      <th>all_matches</th>
-      <td><p>dataframe of SNP-Peak matches for all chromosomes</p></td>
     </tr>
     </table>
 

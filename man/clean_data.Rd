@@ -15,3 +15,5 @@ clean_data(snp.path, peak.path)
 Clean snp.info, peak.info data and save as data/chipseq.RData
 }
 \keyword{data}
+\keyword{peak}
+\keyword{snp}

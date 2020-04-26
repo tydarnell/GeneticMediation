@@ -1,4 +1,4 @@
-#' Match All Chromosomes
+#' Match SNPs Peaks All Chromosomes
 #'
 #' @description Match SNPs and Peaks in all chromosomes and 
 #'   return dataframe of matches
@@ -13,7 +13,7 @@ match_all <- function(snp.info, peak.info, chrs) {
     for (chr in chrs) {
         snps = subset(snp.info, Chr == chr)
         peaks = subset(peak.info, Chr == chr)
-        chr_match = match_chr(snps, peaks)
+        chr_match = match_snp_peak(snps, peaks)
         match.list[[chr]] = chr_match
     }
     matches = data.table::rbindlist(match.list, idcol = "Chr")
