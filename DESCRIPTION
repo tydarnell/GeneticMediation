@@ -3,7 +3,8 @@ Package: GeneticMediation
 Title: Genetic Mediation
 Version: 1.1.0
 License: GPL-3
-URL: https://github.com/tydarnell/GeneticMediation
+URL: https://github.com/tydarnell/GeneticMediation, 
+  https://tydarnell.github.io/GeneticMediation
 Authors@R: person("Ty", "Darnell", role = c("aut", "cre"), email = "tydarnell@gmail.com")
 Author: Ty Darnell [aut, cre]
 Maintainer: Ty Darnell <tydarnell@gmail.com>

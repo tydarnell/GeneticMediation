@@ -13,6 +13,7 @@ It also provides methods for cleaning, matching, and preparing the data for anal
 Useful links:
 \itemize{
   \item \url{https://github.com/tydarnell/GeneticMediation}
+  \item \url{https://tydarnell.github.io/GeneticMediation}
 }
 
 }
