@@ -71,43 +71,19 @@ Argument      |Description
 ```snp.path```     |     path to SNP information dataframe
 ```peak.path```     |     path to Peak annotation dataframe
 
-# `data_by_chr`: Data by Chromosome
+# `combine_data_spc`: Combine Data SNP-Peak-Clinical
 
 ## Description
 
 
- save snp.info, peak.info for each chromosome
- as "data/chipseq_ `chr` .RData"
+ SNP-Peak-Clinical data: combine projid, SNPs, PCs, membership,
+ age, gender, peaks, and outcome data for a chromosome
 
 
 ## Usage
 
 ```r
-data_by_chr(chrs, snps, peaks)
-```
-
-
-## Arguments
-
-Argument      |Description
-------------- |----------------
-```chrs```     |     Character vector of chromosomes names
-```snps```     |     SNP information dataframe
-```peaks```     |     Peak information dataframe
-
-# `data_prep_spc`: SNP-Peak-Clinical Data Prep Helper
-
-## Description
-
-
- Helper function for SNP-Peak-Clinical mediation data.
- Combine projid, SNPs, PCs, membership, age, gender, peaks, and outcome data for a chromosome
-
-
-## Usage
-
-```r
-data_prep_spc(chr)
+combine_data_spc(chr)
 ```
 
 
@@ -117,20 +93,19 @@ Argument      |Description
 ------------- |----------------
 ```chr```     |     chromosome name
 
-# `data_prep_spg`: SNP-Peak-Gene Data Prep Helper
+# `combine_data_spg`: Combine Data SNP-Peak-Gene
 
 ## Description
 
 
- Helper function for SNP-Peak-Gene data prep.
- Combine projid, SNPs, PCs, membership, age, gender, peaks, gene and
- outcome data for a chromosome.
+ SNP-Peak-Gene Data: combine projid, SNPs, PCs, membership,
+ age, gender, peaks, gene and outcome data for a chromosome.
 
 
 ## Usage
 
 ```r
-data_prep_spg(chr)
+combine_data_spg(chr)
 ```
 
 
