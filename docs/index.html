@@ -82,8 +82,8 @@
 <div id="overview" class="section level2">
 <h2 class="hasAnchor">
 <a href="#overview" class="anchor"></a>Overview</h2>
-<p><code>GeneticMediation</code> provides methods for conducting causal mediation analysis on data from the ROSMAP study.</p>
-<p>It also provides methods for cleaning, matching, and preparing the data for analysis.</p>
+<p><code>GeneticMediation</code> was created as part of the UNC Wu lab project <strong>Constructing Causal Mediation Pathways For Multi-Level Genomic Data</strong></p>
+<p><code>GeneticMediation</code> provides methods for cleaning and processing data from the ROSMAP study and preparing it for causal mediation analysis.</p>
 <p>The documentation pdf can be viewed <a href="https://tydarnell.github.io/GeneticMediation_1.1.0.pdf">here</a></p>
 </div>
 <div id="installation" class="section level2">
@@ -92,6 +92,50 @@
 <p>You can install <code>GeneticMediation</code> from <a href="https://github.com/">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="r"><span class="co"># install.packages("devtools")</span>
 <span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"tydarnell/GeneticMediation"</span>)</pre></div>
+</div>
+<div id="prerequisites" class="section level2">
+<h2 class="hasAnchor">
+<a href="#prerequisites" class="anchor"></a>Prerequisites</h2>
+<div class="sourceCode" id="cb2"><pre class="r">####################################################################################
+#   
+#   Software:--------------------------------------------------------
+#
+#     R version &gt;= 3.6.1
+#     devtools (to install GeneticMediation package from github)
+#     Rstudio  (highly recommended)
+#
+#   Data:------------------------------------------------------------
+#
+#     ROSMAP Study:**************************************************
+#       ReadCounts.csv   
+#       H3K9acDomains.csv 
+#
+#     Wu Lab:********************************************************
+#       snps.txt
+#       JulyselGeneBySNP.1030.RData
+#       mediator_chr#_new.RData (each chr has a separate RData file)
+#
+####################################################################################</pre></div>
+</div>
+<div id="setup" class="section level2">
+<h2 class="hasAnchor">
+<a href="#setup" class="anchor"></a>Setup</h2>
+<p>1) Create an Rproject in Rstudio</p>
+<p>2) Install and load <code>GeneticMediation</code> from <a href="https://github.com/">GitHub</a> with:</p>
+<!-- end list -->
+<div class="sourceCode" id="cb3"><pre class="r"><span class="co"># devtools::install_github("tydarnell/GeneticMediation")</span>
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">GeneticMediation</span>)</pre></div>
+<p>3) Create the data folder as a subdirectory of your Rproject folder with:</p>
+<!-- end list -->
+<div class="sourceCode" id="cb4"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_folder.html">make_folder</a></span>(<span class="st">"data"</span>)</pre></div>
+<p>4) Put all data except for the <code>mediator_chr#_new.RData</code> files in the data folder</p>
+<p>5) Create the mediator folder with:</p>
+<!-- end list -->
+<div class="sourceCode" id="cb5"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_folder.html">make_folder</a></span>(<span class="st">"data/mediator"</span>) <span class="co">#subdirectory of data folder</span></pre></div>
+<p>6) Put the <code>mediator_chr#_new.RData</code> files in the mediator folder</p>
+<p>7) Create the results folder as a subdirectory of your Rproject folder with:</p>
+<!-- end list -->
+<div class="sourceCode" id="cb6"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_folder.html">make_folder</a></span>(<span class="st">"results"</span>)</pre></div>
 </div>
 </div>
   </div>
