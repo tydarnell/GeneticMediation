@@ -1,2 +1,8 @@
 destination: docs
 url: https://tydarnell.github.io/GeneticMediation
+template:
+  params:
+    docsearch:
+      api_key: 'a795f61ee150ebe459f4f2fb911dc621'
+      index_name: 'geneticmediation'
+      
