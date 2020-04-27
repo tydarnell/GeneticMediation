@@ -44,6 +44,7 @@ devtools::install_github("tydarnell/GeneticMediation")
 ## Data Access
 
 * The [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) data can be obtained from [Synapse](https://www.synapse.org/#!Synapse:syn3219045)
+
 Read instructions for [data access](https://adknowledgeportal.synapse.org/DataAccess/Instructions)
 
 * The [UNC Wu Lab](http://diwulab.web.unc.edu/) data requires permission from Dr. Di Wu
