@@ -34,7 +34,7 @@ devtools::install_github("tydarnell/GeneticMediation")
 #       ReadCounts.csv   
 #       H3K9acDomains.csv 
 #
-#     UNC Wu Lab:********************************************************
+#     UNC Wu Lab:****************************************************
 #       snps.txt
 #       JulyselGeneBySNP.1030.RData
 #       mediator_chr#_new.RData (each chr has a separate RData file)
