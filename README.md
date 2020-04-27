@@ -2,9 +2,9 @@
 
 ## Overview
 
-`GeneticMediation` was created as part of the UNC Wu lab project **Constructing Causal Mediation Pathways For Multi-Level Genomic Data**
+`GeneticMediation` was created as part of the [UNC Wu Lab](http://diwulab.web.unc.edu/) project **Constructing Causal Mediation Pathways For Multi-Level Genomic Data**
 
-`GeneticMediation` provides methods for cleaning and processing data from the ROSMAP study and preparing it for causal mediation analysis.
+`GeneticMediation` provides methods for cleaning and processing data from the [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) study and preparing it for causal mediation analysis.
 
 The documentation pdf can be viewed [here](https://tydarnell.github.io/GeneticMediation_1.1.0.pdf)
 
@@ -34,13 +34,19 @@ devtools::install_github("tydarnell/GeneticMediation")
 #       ReadCounts.csv   
 #       H3K9acDomains.csv 
 #
-#     Wu Lab:********************************************************
+#     UNC Wu Lab:********************************************************
 #       snps.txt
 #       JulyselGeneBySNP.1030.RData
 #       mediator_chr#_new.RData (each chr has a separate RData file)
 #
 ####################################################################################
 ```
+## Data Access
+
+* The [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) data can be obtained from [Synapse](https://www.synapse.org/#!Synapse:syn3219045)
+Read instructions for [data access](https://adknowledgeportal.synapse.org/DataAccess/Instructions)
+
+* The [UNC Wu Lab](http://diwulab.web.unc.edu/) data requires permission from Dr. Di Wu
 
 ## Setup
 
