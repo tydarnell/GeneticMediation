@@ -6,3 +6,4 @@ GeneticMediation_0.1.0.pdf
 ^docs$
 ^pkgdown$
 package_build.R
+geneticmediation.json
