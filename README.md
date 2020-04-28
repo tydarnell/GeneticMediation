@@ -51,6 +51,7 @@ devtools::install_github("tydarnell/GeneticMediation")
 
 1)  Create an Rproject in Rstudio
 
+
 2)  Install and load `GeneticMediation` from
     [GitHub](https://github.com/) with:
 
@@ -61,6 +62,7 @@ devtools::install_github("tydarnell/GeneticMediation")
 library(GeneticMediation)
 ```
 
+
 3)  Create subdirectories of your Rproject directory: data, data/mediator, results with:
 
 <!-- end list -->
@@ -69,10 +71,13 @@ library(GeneticMediation)
 GeneticMediation::setup_folders()
 ```
 
+
 4)  Put all data except for the `mediator_chr#_new.RData` files in the
     data folder
 
+
 5)  Put the `mediator_chr#_new.RData` files in the mediator folder
+
 
 6)  Check that data files are in the data folder with:
 
