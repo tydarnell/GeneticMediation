@@ -61,34 +61,24 @@ devtools::install_github("tydarnell/GeneticMediation")
 library(GeneticMediation)
 ```
 
-3)  Create the data folder as a subdirectory of your Rproject folder
-    with:
+3)  Create subdirectories of your Rproject directory: data, data/mediator, results with:
 
 <!-- end list -->
 
 ``` r
-GeneticMediation::make_folder("data")
+GeneticMediation::setup_folders()
 ```
 
 4)  Put all data except for the `mediator_chr#_new.RData` files in the
     data folder
 
-5)  Create the mediator folder with:
+5)  Put the `mediator_chr#_new.RData` files in the mediator folder
+
+6)  Check that data files are in the data folder with:
 
 <!-- end list -->
 
 ``` r
-GeneticMediation::make_folder("data/mediator") #subdirectory of data folder
-```
-
-6)  Put the `mediator_chr#_new.RData` files in the mediator folder
-
-7)  Create the results folder as a subdirectory of your Rproject folder
-    with:
-
-<!-- end list -->
-
-``` r
-GeneticMediation::make_folder("results") 
+GeneticMediation::check_data()
 ```
 

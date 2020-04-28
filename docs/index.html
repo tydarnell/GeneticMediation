@@ -141,17 +141,14 @@
 <!-- end list -->
 <div class="sourceCode" id="cb3"><pre class="r"><span class="co"># devtools::install_github("tydarnell/GeneticMediation")</span>
 <span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">GeneticMediation</span>)</pre></div>
-<p>3) Create the data folder as a subdirectory of your Rproject folder with:</p>
+<p>3) Create subdirectories of your Rproject directory: data, data/mediator, results with:</p>
 <!-- end list -->
-<div class="sourceCode" id="cb4"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_folder.html">make_folder</a></span>(<span class="st">"data"</span>)</pre></div>
+<div class="sourceCode" id="cb4"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/setup_folders.html">setup_folders</a></span>()</pre></div>
 <p>4) Put all data except for the <code>mediator_chr#_new.RData</code> files in the data folder</p>
-<p>5) Create the mediator folder with:</p>
+<p>5) Put the <code>mediator_chr#_new.RData</code> files in the mediator folder</p>
+<p>6) Check that data files are in the data folder with:</p>
 <!-- end list -->
-<div class="sourceCode" id="cb5"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_folder.html">make_folder</a></span>(<span class="st">"data/mediator"</span>) <span class="co">#subdirectory of data folder</span></pre></div>
-<p>6) Put the <code>mediator_chr#_new.RData</code> files in the mediator folder</p>
-<p>7) Create the results folder as a subdirectory of your Rproject folder with:</p>
-<!-- end list -->
-<div class="sourceCode" id="cb6"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/make_folder.html">make_folder</a></span>(<span class="st">"results"</span>)</pre></div>
+<div class="sourceCode" id="cb5"><pre class="r"><span class="kw pkg">GeneticMediation</span><span class="kw ns">::</span><span class="fu"><a href="reference/check_data.html">check_data</a></span>()</pre></div>
 </div>
 </div>
   </div>
