@@ -1,5 +1,7 @@
 # Genetic Mediation <img src='man/figures/logo.png' align="right" height="139" />
 
+## An R Package for Causal Mediation Analysis of ROSMAP Data
+
 ## Overview
 
 `GeneticMediation` was created as part of the [UNC Wu Lab](http://diwulab.web.unc.edu/) project **Constructing Causal Mediation Pathways For Multi-Level Genomic Data**
