@@ -12,10 +12,9 @@ med_table_spg <- function(med.res.data, match_row, covar, simulations) {
     a = match_row[1]
     m = match_row[2]
     gene = match_row[3]
-    covar <- "+age+membership+PC1+PC2+PC3"
-    fm1 <- paste(m, "~", a, covar, sep = " ")
+    fm1 <- paste(m, "~", a, "+", covar, sep = " ")
     med.fit <- stats::lm(fm1, data = med.res.data)
-    fm2 <- paste(gene, "~", m, "+", a, covar, sep = " ")
+    fm2 <- paste(gene, "~", m, "+", a, "+", covar, sep = " ")
     out.fit <- stats::lm(fm2, data = med.res.data)
     med.out <- mediation::mediate(med.fit, out.fit, treat = a, mediator = m, sims = simulations)
     out = data.frame(med = m, causal = a, Y = gene, ineffect = med.out$d.avg, in.p = med.out$d.avg.p, 
