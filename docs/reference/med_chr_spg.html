@@ -137,7 +137,7 @@
     <p>Create a SNP-Peak-Gene mediation table for a chromosome</p>
     </div>
 
-    <pre class="usage"><span class='fu'>med_chr_spg</span>(<span class='no'>chr</span>, <span class='no'>gene_matches</span>, <span class='no'>simulations</span>)</pre>
+    <pre class="usage"><span class='fu'>med_chr_spg</span>(<span class='no'>chr</span>, <span class='no'>gene_matches</span>, <span class='no'>covar</span>, <span class='no'>simulations</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -149,6 +149,10 @@
     <tr>
       <th>gene_matches</th>
       <td><p>list of peak-SNP matches for each gene</p></td>
+    </tr>
+    <tr>
+      <th>covar</th>
+      <td><p>covariates string, separate covariates with +</p></td>
     </tr>
     <tr>
       <th>simulations</th>

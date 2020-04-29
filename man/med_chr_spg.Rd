@@ -4,12 +4,14 @@
 \alias{med_chr_spg}
 \title{SNP-Peak-Gene Mediation Table Chromosome}
 \usage{
-med_chr_spg(chr, gene_matches, simulations)
+med_chr_spg(chr, gene_matches, covar, simulations)
 }
 \arguments{
 \item{chr}{chromosome name}
 
 \item{gene_matches}{list of peak-SNP matches for each gene}
+
+\item{covar}{covariates string, separate covariates with +}
 
 \item{simulations}{number of simulations to run}
 }

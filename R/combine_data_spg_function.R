@@ -21,6 +21,7 @@ combine_data_spg <- function(chr) {
         gene.med, disease.data))
     med.data = unique(med.data)
     med.data$membership = factor(med.data$membership)
+    med.data$Phase <- factor(med.data$Phase)
     med.data
 }
 

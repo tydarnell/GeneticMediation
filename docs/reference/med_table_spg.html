@@ -137,18 +137,22 @@
     <p>Create a mediation table for one SNP-Peak-Gene match</p>
     </div>
 
-    <pre class="usage"><span class='fu'>med_table_spg</span>(<span class='no'>med_dat</span>, <span class='no'>match_row</span>, <span class='no'>simulations</span>)</pre>
+    <pre class="usage"><span class='fu'>med_table_spg</span>(<span class='no'>med.res.data</span>, <span class='no'>match_row</span>, <span class='no'>covar</span>, <span class='no'>simulations</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>med_dat</th>
+      <th>med.res.data</th>
       <td><p>gene mediation data</p></td>
     </tr>
     <tr>
       <th>match_row</th>
       <td><p>row in match dataframe: col1 SNP, col2 Peak, col3 Gene</p></td>
+    </tr>
+    <tr>
+      <th>covar</th>
+      <td><p>covariates character variable, separate covariates with +</p></td>
     </tr>
     <tr>
       <th>simulations</th>

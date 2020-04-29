@@ -4,12 +4,14 @@
 \alias{med_table_spg}
 \title{SNP-Peak-Gene Mediation Table}
 \usage{
-med_table_spg(med_dat, match_row, simulations)
+med_table_spg(med.res.data, match_row, covar, simulations)
 }
 \arguments{
-\item{med_dat}{gene mediation data}
+\item{med.res.data}{gene mediation data}
 
 \item{match_row}{row in match dataframe: col1 SNP, col2 Peak, col3 Gene}
+
+\item{covar}{covariates character variable, separate covariates with +}
 
 \item{simulations}{number of simulations to run}
 }
