@@ -1,0 +1,13 @@
+citHeader("To cite GeneticMediation in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "{GeneticMediation}: an R Package for Causal Mediation Analysis of ROSMAP Data",
+  author   = as.person("Ty Darnell"),
+  organization  = "The University of North Carolina at Chapel Hill",
+  year     = "2020",
+  url      = "https://tydarnell.github.io/GeneticMediation",
+  textVersion = paste("Ty Darnell (2020).", "GeneticMediation: an R Package for Causal Mediation Analysis of ROSMAP Data.",
+  "The University of North Carolina at Chapel Hill.",
+  "URL https://tydarnell.github.io/GeneticMediation.")
+)
