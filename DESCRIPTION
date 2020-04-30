@@ -19,5 +19,6 @@ Imports:
     data.table,
     IRanges,
     mediation,
+    purrr,
     readr,
     stats
