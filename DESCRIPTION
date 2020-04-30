@@ -22,3 +22,7 @@ Imports:
     purrr,
     readr,
     stats
+Suggests: 
+    testthat,
+    spelling
+Language: en-US
