@@ -7,7 +7,7 @@
 #' @export
 
 sig_spg=function(sig_dat,row){
-  chr_index=sig_dat[position,]$Chr
+  chr_index=sig_dat[row,]$Chr
   load(paste0("data/spg.res/res_chr",chr_index,".RData"))
   res=mediation_spg(med.res.data,match_row =matches[row,])
   summary(res)
