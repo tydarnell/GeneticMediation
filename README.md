@@ -5,13 +5,19 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.com/tydarnell/GeneticMediation.svg?branch=master)](https://travis-ci.com/tydarnell/GeneticMediation)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/tydarnell/GeneticMediation?branch=master&svg=true)](https://ci.appveyor.com/project/tydarnell/GeneticMediation)
-[![Codecov test
-coverage](https://codecov.io/gh/tydarnell/GeneticMediation/branch/master/graph/badge.svg)](https://codecov.io/gh/tydarnell/GeneticMediation?branch=master)
 <!-- badges: end -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164663784-2"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164663784-2');
+</script>
 
 ## An R Package for Causal Mediation Analysis of ROSMAP Data
 
