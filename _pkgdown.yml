@@ -8,3 +8,15 @@ template:
     bootswatch: cerulean
     
 url: https://tydarnell.github.io/GeneticMediation
+navbar:
+  components:
+    linkedin:
+      icon: "fab fa-linkedin fa-lg"
+      href: http://linkedin.com/in/tydarnell
+    Ty Darnell:
+      text: "Ty Darnell"
+      href: "https://tydarnell.github.io"
+    
+  structure:
+    left:  [home, reference, articles]
+    right: [Ty Darnell,github,linkedin]

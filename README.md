@@ -7,18 +7,6 @@
 
 <!-- badges: end -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164663784-2"></script>
-
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-164663784-2');
-</script>
-
 ## An R Package for Causal Mediation Analysis of ROSMAP Data
 
 ## Overview
@@ -28,8 +16,7 @@ Lab](http://diwulab.web.unc.edu/) project **Constructing Causal
 Mediation Pathways For Multi-Level Genomic Data**
 
 `GeneticMediation` provides methods for cleaning and processing data
-from the [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) study
-and preparing it for causal mediation analysis.
+from the ROSMAP study and preparing it for causal mediation analysis.
 
 The documentation pdf can be viewed
 [here](https://tydarnell.github.io/GeneticMediation_1.1.0.9000.pdf)
@@ -71,8 +58,7 @@ devtools::install_github("tydarnell/GeneticMediation")
 
 ## Data Access
 
-  - The [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) data can
-    be obtained from
+  - The ROSMAP data can be obtained from
     [Synapse](https://www.synapse.org/#!Synapse:syn3219045). Read
     instructions for [data
     access](https://adknowledgeportal.synapse.org/DataAccess/Instructions)

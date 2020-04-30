@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SNP-Peak-Gene Mediation Data Prep — med.res_spg • GeneticMediation</title>
+<title>Significant SNP-Peak-Gene — sig_chr_spg • GeneticMediation</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -52,9 +52,8 @@
 
 
 
-<meta property="og:title" content="SNP-Peak-Gene Mediation Data Prep — med.res_spg" />
-<meta property="og:description" content="Prepare a chromosome SNP-Peak-Gene data for mediation analysis data
-and save as &quot;data/spg.res/res_chr.RData&quot;" />
+<meta property="og:title" content="Significant SNP-Peak-Gene — sig_chr_spg" />
+<meta property="og:description" content="Returns summary of mediation results for a chr with significant results" />
 <meta property="og:image" content="https://tydarnell.github.io/GeneticMediation/logo.png" />
 
 
@@ -160,17 +159,16 @@ and save as &quot;data/spg.res/res_chr.RData&quot;" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>SNP-Peak-Gene Mediation Data Prep</h1>
-    <small class="dont-index">Source: <a href='https://github.com/tydarnell/GeneticMediation/blob/master/R/med.res_spg_function.R'><code>R/med.res_spg_function.R</code></a></small>
-    <div class="hidden name"><code>med.res_spg.Rd</code></div>
+    <h1>Significant SNP-Peak-Gene</h1>
+    <small class="dont-index">Source: <a href='https://github.com/tydarnell/GeneticMediation/blob/master/R/sig_chr_spg_function.R'><code>R/sig_chr_spg_function.R</code></a></small>
+    <div class="hidden name"><code>sig_chr_spg.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Prepare a chromosome SNP-Peak-Gene data for mediation analysis data
-and save as "data/spg.res/res_<code>chr</code>.RData"</p>
+    <p>Returns summary of mediation results for a chr with significant results</p>
     </div>
 
-    <pre class="usage"><span class='fu'>med.res_spg</span>(<span class='no'>chr</span>, <span class='no'>med.data</span>, <span class='no'>matches</span>, <span class='no'>mediator.path</span>)</pre>
+    <pre class="usage"><span class='fu'>sig_chr_spg</span>(<span class='no'>chr</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -178,14 +176,6 @@ and save as "data/spg.res/res_<code>chr</code>.RData"</p>
     <tr>
       <th>chr</th>
       <td><p>chromosome name</p></td>
-    </tr>
-    <tr>
-      <th>med.data</th>
-      <td><p>gene mediation data</p></td>
-    </tr>
-    <tr>
-      <th>matches</th>
-      <td><p>SNP-Peak-Gene matches dataframe</p></td>
     </tr>
     </table>
 
