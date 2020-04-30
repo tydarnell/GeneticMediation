@@ -32,7 +32,7 @@ from the [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) study
 and preparing it for causal mediation analysis.
 
 The documentation pdf can be viewed
-[here](https://tydarnell.github.io/GeneticMediation_1.1.0.pdf)
+[here](https://tydarnell.github.io/GeneticMediation_1.1.0.9000.pdf)
 
 ## Installation
 
