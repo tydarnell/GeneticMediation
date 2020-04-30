@@ -4,3 +4,4 @@
 .Ruserdata
 package_build.R
 GeneticMediation.Rproj
+inst/doc

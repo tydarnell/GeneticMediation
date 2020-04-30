@@ -25,5 +25,8 @@ Imports:
 Suggests: 
     testthat,
     spelling,
-    covr
+    covr,
+    knitr,
+    rmarkdown
 Language: en-US
+VignetteBuilder: knitr
