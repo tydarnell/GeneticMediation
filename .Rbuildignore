@@ -7,3 +7,8 @@ GeneticMediation_0.1.0.pdf
 ^pkgdown$
 package_build.R
 geneticmediation.json
+^LICENSE\.md$
+^README\.Rmd$
+^\.travis\.yml$
+^appveyor\.yml$
+^codecov\.yml$

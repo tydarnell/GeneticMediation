@@ -1,32 +1,35 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # Genetic Mediation <img src='man/figures/logo.png' align="right" height="139" />
 
 <!-- badges: start -->
-
-[![Travis build
-status](https://travis-ci.com/tydarnell/GeneticMediation.svg?branch=master)](https://travis-ci.com/tydarnell/GeneticMediation)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/tydarnell/GeneticMediation?branch=master&svg=true)](https://ci.appveyor.com/project/tydarnell/GeneticMediation)
-[![Codecov test
-coverage](https://codecov.io/gh/tydarnell/GeneticMediation/branch/master/graph/badge.svg)](https://codecov.io/gh/tydarnell/GeneticMediation?branch=master)
+[![Travis build status](https://travis-ci.com/tydarnell/GeneticMediation.svg?branch=master)](https://travis-ci.com/tydarnell/GeneticMediation)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/tydarnell/GeneticMediation?branch=master&svg=true)](https://ci.appveyor.com/project/tydarnell/GeneticMediation)
+[![Codecov test coverage](https://codecov.io/gh/tydarnell/GeneticMediation/branch/master/graph/badge.svg)](https://codecov.io/gh/tydarnell/GeneticMediation?branch=master)
 <!-- badges: end -->
 
 ## An R Package for Causal Mediation Analysis of ROSMAP Data
 
 ## Overview
 
-`GeneticMediation` was created as part of the [UNC Wu
-Lab](http://diwulab.web.unc.edu/) project **Constructing Causal
-Mediation Pathways For Multi-Level Genomic Data**
+`GeneticMediation` was created as part of the [UNC Wu Lab](http://diwulab.web.unc.edu/) project **Constructing Causal Mediation Pathways For Multi-Level Genomic Data**
 
-`GeneticMediation` provides methods for cleaning and processing data
-from the [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) study
-and preparing it for causal mediation analysis.
+`GeneticMediation` provides methods for cleaning and processing data from the [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) study and preparing it for causal mediation analysis.
 
-The documentation pdf can be viewed
-[here](https://tydarnell.github.io/GeneticMediation_1.1.0.pdf)
+The documentation pdf can be viewed [here](https://tydarnell.github.io/GeneticMediation_1.1.0.pdf)
 
 ## Installation
 
@@ -37,7 +40,6 @@ with:
 # install.packages("devtools")
 devtools::install_github("tydarnell/GeneticMediation")
 ```
-
 ## Prerequisites
 
 ``` r
@@ -62,21 +64,16 @@ devtools::install_github("tydarnell/GeneticMediation")
 #
 ####################################################################################
 ```
-
 ## Data Access
 
-  - The [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) data can
-    be obtained from
-    [Synapse](https://www.synapse.org/#!Synapse:syn3219045). Read
-    instructions for [data
-    access](https://adknowledgeportal.synapse.org/DataAccess/Instructions)
+* The [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) data can be obtained from [Synapse](https://www.synapse.org/#!Synapse:syn3219045). Read instructions for [data access](https://adknowledgeportal.synapse.org/DataAccess/Instructions)
 
-  - The [UNC Wu Lab](http://diwulab.web.unc.edu/) data requires
-    permission from Dr. Di Wu
+* The [UNC Wu Lab](http://diwulab.web.unc.edu/) data requires permission from Dr. Di Wu
 
 ## Setup
 
 1)  Create an Rproject in Rstudio
+
 
 2)  Install and load `GeneticMediation` from
     [GitHub](https://github.com/) with:
@@ -88,8 +85,8 @@ devtools::install_github("tydarnell/GeneticMediation")
 library(GeneticMediation)
 ```
 
-3)  Create subdirectories of your Rproject directory: data,
-    data/mediator, results with:
+
+3)  Create subdirectories of your Rproject directory: data, data/mediator, results with:
 
 <!-- end list -->
 
@@ -97,10 +94,13 @@ library(GeneticMediation)
 GeneticMediation::setup_folders()
 ```
 
+
 4)  Put all data except for the `mediator_chr#_new.RData` files in the
     data folder
 
+
 5)  Put the `mediator_chr#_new.RData` files in the mediator folder
+
 
 6)  Check that data files are in the data folder with:
 
@@ -109,3 +109,4 @@ GeneticMediation::setup_folders()
 ``` r
 GeneticMediation::check_data()
 ```
+

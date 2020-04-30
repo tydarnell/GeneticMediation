@@ -24,5 +24,6 @@ Imports:
     stats
 Suggests: 
     testthat,
-    spelling
+    spelling,
+    covr
 Language: en-US
