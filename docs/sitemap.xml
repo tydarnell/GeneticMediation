@@ -25,7 +25,7 @@
     <loc>https://tydarnell.github.io/GeneticMediation/reference/last_to_first.html</loc>
   </url>
   <url>
-    <loc>https://tydarnell.github.io/GeneticMediation/reference/lu.html</loc>
+    <loc>https://tydarnell.github.io/GeneticMediation/reference/lenu.html</loc>
   </url>
   <url>
     <loc>https://tydarnell.github.io/GeneticMediation/reference/make_folder.html</loc>
@@ -67,6 +67,9 @@
     <loc>https://tydarnell.github.io/GeneticMediation/reference/setup_folders.html</loc>
   </url>
   <url>
+    <loc>https://tydarnell.github.io/GeneticMediation/reference/sig_spg.html</loc>
+  </url>
+  <url>
     <loc>https://tydarnell.github.io/GeneticMediation/reference/snp_peak_bychr.html</loc>
   </url>
   <url>
@@ -76,6 +79,6 @@
     <loc>https://tydarnell.github.io/GeneticMediation/reference/transpose_readcount.html</loc>
   </url>
   <url>
-    <loc>https://tydarnell.github.io/GeneticMediation/articles/setup.html</loc>
+    <loc>https://tydarnell.github.io/GeneticMediation/articles/DataSetup.html</loc>
   </url>
 </urlset>

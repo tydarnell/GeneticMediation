@@ -19,4 +19,4 @@ med_table_spc(med.res.data, match_row, covar, simulations)
 Create SNP-Peak-Clinical mediation table for a SNP-Peak match
 }
 \keyword{mediation}
-\keyword{table}
+\keyword{spc}

@@ -14,6 +14,4 @@ match_snp_peak(snp.info, peak.info)
 \description{
 Match SNPs and Peaks in a chromosome
 }
-\keyword{SNP}
 \keyword{match}
-\keyword{peak}

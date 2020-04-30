@@ -5,7 +5,7 @@
 #' @param snp.info SNP information
 #' @param peak.info Peak information
 #' @param chrs character vector of chromosome names
-#' @keywords match peak SNP
+#' @keywords match
 #' @export
 
 match_all <- function(snp.info, peak.info, chrs) {

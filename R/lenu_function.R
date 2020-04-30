@@ -2,9 +2,9 @@
 #'
 #' @description Get the length of unique values in a vector
 #' @param x vector
-#' @keywords length unique
+#' @keywords helper
 #' @export
 
-lu <- function(x) {
+lenu <- function(x) {
       length(unique(x))
 }

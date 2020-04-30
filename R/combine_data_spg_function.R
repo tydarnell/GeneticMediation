@@ -3,7 +3,7 @@
 #' @description SNP-Peak-Gene Data: combine projid, SNPs, PCs, membership,
 #'   age, gender, peaks, gene and outcome data for a chromosome.
 #' @param chr chromosome name
-#' @keywords combine data gene
+#' @keywords dataprep spg
 #' @export
 
 combine_data_spg <- function(chr) {

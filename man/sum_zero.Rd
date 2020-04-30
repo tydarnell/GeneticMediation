@@ -12,4 +12,4 @@ sum_zero(df)
 \description{
 Get names of columns that have a sum of zero
 }
-\keyword{zero}
+\keyword{helper}

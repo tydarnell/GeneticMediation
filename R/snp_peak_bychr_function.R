@@ -5,7 +5,7 @@
 #' @param chrs Character vector of chromosomes names
 #' @param snps SNP information dataframe
 #' @param peaks Peak information dataframe
-#' @keywords data
+#' @keywords dataprep
 #' @export
 
 snp_peak_bychr <- function(chrs, snps, peaks) {

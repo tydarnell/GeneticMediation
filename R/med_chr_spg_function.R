@@ -5,7 +5,7 @@
 #' @param gene_matches list of peak-SNP matches for each gene
 #' @param covar covariates string, separate covariates with +
 #' @param simulations number of simulations to run
-#' @keywords mediation table
+#' @keywords mediation spg
 #' @export
 
 med_chr_spg <-  function(chr, gene_matches,covar, simulations) {

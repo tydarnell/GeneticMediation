@@ -13,6 +13,5 @@ combine_data_spg(chr)
 SNP-Peak-Gene Data: combine projid, SNPs, PCs, membership,
   age, gender, peaks, gene and outcome data for a chromosome.
 }
-\keyword{combine}
-\keyword{data}
-\keyword{gene}
+\keyword{dataprep}
+\keyword{spg}

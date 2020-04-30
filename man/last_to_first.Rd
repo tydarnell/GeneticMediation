@@ -12,6 +12,4 @@ last_to_first(df)
 \description{
 Make the last column the first column in a dataframe
 }
-\keyword{column}
-\keyword{first}
-\keyword{last}
+\keyword{helper}

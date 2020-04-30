@@ -9,5 +9,4 @@ setup_folders()
 \description{
 Creates data, data/mediator, results folders
 }
-\keyword{folder}
 \keyword{setup}

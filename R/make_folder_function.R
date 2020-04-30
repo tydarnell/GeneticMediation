@@ -2,7 +2,7 @@
 #'
 #' @description Make a folder only if the folder does not already exist
 #' @param path folder path
-#' @keywords folder
+#' @keywords helper
 #' @export
 
 make_folder <- function(path) {

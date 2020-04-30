@@ -12,5 +12,4 @@ transpose_readcount(readcount.path)
 \description{
 Read in and transpose ChIP-seq Readcount dataframe and match project id
 }
-\keyword{readcount}
-\keyword{transpose}
+\keyword{dataprep}

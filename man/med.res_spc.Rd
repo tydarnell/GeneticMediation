@@ -15,5 +15,5 @@ med.res_spc(chr, all_matches)
 Prepare a chromosome of SNP-Peak-Clinical data for mediation analysis
 and save as "data/spc.res/res_\code{chr}.RData"
 }
-\keyword{data}
-\keyword{prep}
+\keyword{dataprep}
+\keyword{spc}

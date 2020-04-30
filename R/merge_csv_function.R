@@ -2,7 +2,7 @@
 #'
 #' @description merge multiple csv files into a single dataframe
 #' @param path path to folder containing csv files
-#' @keywords merge csv
+#' @keywords helper
 #' @export
 
 merge_csv = function(path){

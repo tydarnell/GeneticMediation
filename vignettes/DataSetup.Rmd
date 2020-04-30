@@ -1,0 +1,83 @@
+---
+title: "DataSetup"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Data
+
+### ROSMAP Data 
+
+- ReadCounts.csv 
+ 
+ 
+- H3K9acDomains.csv 
+
+
+The [ROSMAP](https://www.synapse.org/#!Synapse:syn3219045) data can be obtained from [Synapse](https://www.synapse.org/#!Synapse:syn3219045). Read instructions for [data access](https://adknowledgeportal.synapse.org/DataAccess/Instructions)
+
+### UNC Wu Lab Data
+
+- snps.txt
+
+
+- JulyselGeneBySNP.1030.RData
+
+
+- mediator_chr#_new.RData (each chr has a separate RData file)
+
+
+The [UNC Wu Lab](http://diwulab.web.unc.edu/) data requires permission from Dr. Di Wu
+
+## Setup
+
+1)  Create an Rproject in Rstudio
+
+
+2)  Install and load `GeneticMediation` from
+    [GitHub](https://github.com/) with:
+
+<!-- end list -->
+
+``` r
+# devtools::install_github("tydarnell/GeneticMediation")
+library(GeneticMediation)
+```
+
+```{r setup}
+library(GeneticMediation)
+```
+
+3)  Create subdirectories of your Rproject directory: data, data/mediator, results with:
+
+<!-- end list -->
+
+``` r
+GeneticMediation::setup_folders()
+```
+
+
+4)  Put all data except for the `mediator_chr#_new.RData` files in the
+    data folder
+
+
+5)  Put the `mediator_chr#_new.RData` files in the mediator folder
+
+
+6)  Check that data files are in the data folder with:
+
+<!-- end list -->
+
+``` r
+GeneticMediation::check_data()
+```

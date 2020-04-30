@@ -5,7 +5,7 @@
 #' @param match_row row in match dataframe, should have 2 columns
 #' @param covar covariates character variable, separate covariates with +
 #' @param simulations number of simulations to run
-#' @keywords mediation table
+#' @keywords mediation spc
 #' @export
 
 med_table_spc <-  function(med.res.data, match_row, covar, simulations) {

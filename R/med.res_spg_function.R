@@ -5,7 +5,7 @@
 #' @param chr chromosome name
 #' @param med.data gene mediation data
 #' @param matches SNP-Peak-Gene matches dataframe
-#' @keywords data
+#' @keywords dataprep spg
 #' @export
 
 med.res_spg <- function(chr, med.data, matches,mediator.path) {

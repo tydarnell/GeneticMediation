@@ -19,4 +19,4 @@ med_chr_spg(chr, gene_matches, covar, simulations)
 Create a SNP-Peak-Gene mediation table for a chromosome
 }
 \keyword{mediation}
-\keyword{table}
+\keyword{spg}

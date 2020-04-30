@@ -12,5 +12,4 @@ merge_csv(path)
 \description{
 merge multiple csv files into a single dataframe
 }
-\keyword{csv}
-\keyword{merge}
+\keyword{helper}

@@ -3,7 +3,7 @@
 #' @description SNP-Peak-Clinical data: combine projid, SNPs, PCs, membership,
 #'   age, gender, peaks, and outcome data for a chromosome
 #' @param chr chromosome name
-#' @keywords combine data clinical
+#' @keywords dataprep spc
 #' @export
 
 combine_data_spc <- function(chr) {

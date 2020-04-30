@@ -9,5 +9,4 @@ check_data()
 \description{
 Checks if the data is in the data folder
 }
-\keyword{check}
-\keyword{data}
+\keyword{setup}

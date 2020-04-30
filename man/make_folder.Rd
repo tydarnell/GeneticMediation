@@ -12,4 +12,4 @@ make_folder(path)
 \description{
 Make a folder only if the folder does not already exist
 }
-\keyword{folder}
+\keyword{helper}

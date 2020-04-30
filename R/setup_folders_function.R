@@ -1,7 +1,7 @@
 #' Setup Folders
 #'
 #' @description Creates data, data/mediator, results folders
-#' @keywords setup folder
+#' @keywords setup
 #' @export
 
 setup_folders=function(){

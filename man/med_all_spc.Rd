@@ -18,4 +18,4 @@ Create a table of SNP-Peak-Clinical mediation results
  for all chromosomes
 }
 \keyword{mediation}
-\keyword{table}
+\keyword{spc}

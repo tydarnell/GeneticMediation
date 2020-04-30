@@ -4,7 +4,7 @@
 #' @param med.res.data gene mediation data
 #' @param match_row row in match dataframe: col1 SNP, col2 Peak, col3 Gene
 #' @param simulations number of simulations, 1000 by default
-#' @keywords mediation summary
+#' @keywords mediation spg
 #' @export
 
 mediation_spg <- function(med.res.data, match_row, simulations=1000) {

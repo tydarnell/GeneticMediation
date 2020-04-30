@@ -19,4 +19,4 @@ med_chr_spc(matches, med.res.data, covar, simulations)
 Create SNP-Peak-Clinical mediation table for SNP-Peak matches in a chromosome
 }
 \keyword{mediation}
-\keyword{table}
+\keyword{spc}

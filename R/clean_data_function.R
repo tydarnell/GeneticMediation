@@ -3,7 +3,7 @@
 #' @description Clean snp.info, peak.info data and save as data/chipseq.RData
 #' @param snp.path  path to SNP information dataframe
 #' @param peak.path path to Peak annotation dataframe
-#' @keywords data snp peak
+#' @keywords dataprep spc
 #' @export
 
 clean_data <- function(snp.path, peak.path) {

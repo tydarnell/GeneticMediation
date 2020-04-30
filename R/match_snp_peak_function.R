@@ -3,7 +3,7 @@
 #' @description Match SNPs and Peaks in a chromosome
 #' @param snp.info SNP information for chr
 #' @param peak.info Peak information chr
-#' @keywords match peak SNP
+#' @keywords match
 #' @export
 
 match_snp_peak <- function(snp.info, peak.info) {

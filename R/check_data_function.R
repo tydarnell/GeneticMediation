@@ -1,7 +1,7 @@
 #' Check Data
 #'
 #' @description Checks if the data is in the data folder
-#' @keywords check data
+#' @keywords setup
 #' @export
 
 check_data=function(){

@@ -5,7 +5,7 @@
 #' @param med.res.data mediation data
 #' @param covar covariates string, separate covariates with +
 #' @param simulations number of simulations to run
-#' @keywords mediation table
+#' @keywords mediation spc
 #' @export
 
 med_chr_spc <- function(matches, med.res.data, covar, simulations) {

@@ -2,7 +2,7 @@
 #'
 #' @description Make the last column the first column in a dataframe
 #' @param df  dataframe
-#' @keywords last first column 
+#' @keywords helper 
 #' @export
 
 last_to_first <- function(df) {

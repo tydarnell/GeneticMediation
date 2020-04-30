@@ -2,7 +2,7 @@
 #'
 #' @description Read in and transpose ChIP-seq Readcount dataframe and match project id
 #' @param readcount.path ChIP-seq readcount dataframe file path
-#' @keywords transpose readcount
+#' @keywords dataprep
 #' @export
 
 transpose_readcount <- function(readcount.path) {

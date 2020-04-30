@@ -19,4 +19,4 @@ med_table_spg(med.res.data, match_row, covar, simulations)
 Create a mediation table for one SNP-Peak-Gene match
 }
 \keyword{mediation}
-\keyword{table}
+\keyword{spg}

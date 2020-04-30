@@ -13,5 +13,4 @@ chr_numeric(Chr)
 Convert chromosome names from character to numeric.
 Useful when sorting a dataframe by chromosome number.
 }
-\keyword{chromosome}
-\keyword{numeric}
+\keyword{helper}

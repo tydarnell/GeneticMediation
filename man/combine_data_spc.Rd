@@ -13,6 +13,5 @@ combine_data_spc(chr)
 SNP-Peak-Clinical data: combine projid, SNPs, PCs, membership,
   age, gender, peaks, and outcome data for a chromosome
 }
-\keyword{clinical}
-\keyword{combine}
-\keyword{data}
+\keyword{dataprep}
+\keyword{spc}

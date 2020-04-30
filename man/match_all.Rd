@@ -17,6 +17,4 @@ match_all(snp.info, peak.info, chrs)
 Match SNPs and Peaks in all chromosomes and 
   return dataframe of matches
 }
-\keyword{SNP}
 \keyword{match}
-\keyword{peak}

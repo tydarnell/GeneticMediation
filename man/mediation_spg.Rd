@@ -17,4 +17,4 @@ mediation_spg(med.res.data, match_row, simulations = 1000)
 Mediation analysis one SNP-Peak-Gene match
 }
 \keyword{mediation}
-\keyword{summary}
+\keyword{spg}

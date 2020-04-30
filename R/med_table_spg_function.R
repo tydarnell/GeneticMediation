@@ -5,7 +5,7 @@
 #' @param match_row row in match dataframe: col1 SNP, col2 Peak, col3 Gene
 #' @param covar covariates character variable, separate covariates with +
 #' @param simulations number of simulations to run
-#' @keywords mediation table
+#' @keywords mediation spg
 #' @export
 
 med_table_spg <- function(med.res.data, match_row, covar, simulations) {

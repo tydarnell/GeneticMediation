@@ -2,7 +2,7 @@
 #'
 #' @description Get names of columns that have a sum of zero
 #' @param df dataframe
-#' @keywords zero
+#' @keywords helper
 #' @export
 
 sum_zero=function(df){

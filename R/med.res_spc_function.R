@@ -4,7 +4,7 @@
 #' and save as "data/spc.res/res_\code{chr}.RData"
 #' @param chr chromosome name
 #' @param all_matches dataframe of SNP-Peak matches for all chromosomes
-#' @keywords data prep
+#' @keywords dataprep spc
 #' @export
 
 med.res_spc <- function(chr,all_matches) {

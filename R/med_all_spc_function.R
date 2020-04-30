@@ -5,7 +5,7 @@
 #' @param chrs character vector of chromosome names
 #' @param covar covariates string, each covariate separated by +
 #' @param simulations number of simulations to run
-#' @keywords mediation table
+#' @keywords mediation spc
 #' @export
 
 med_all_spc <- function(chrs, covar, simulations) {
