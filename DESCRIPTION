@@ -21,12 +21,14 @@ Imports:
     mediation,
     purrr,
     readr,
-    stats
+    stats,
+    utils
 Suggests: 
-    testthat,
-    spelling,
-    covr,
+    dplyr,
     knitr,
-    rmarkdown
-Language: en-US
+    magrittr,
+    rmarkdown,
+    testthat,
+    tibble,
+    tidyselect
 VignetteBuilder: knitr
