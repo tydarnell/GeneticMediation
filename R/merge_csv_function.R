@@ -7,6 +7,6 @@
 
 merge_csv = function(path){
   filenames=list.files(path=path, full.names=TRUE)
-  res=data.table::rbindlist(lapply(filenames, data.table::fread),idcol = "Chr")
+  res=data.table::rbindlist(lapply(filenames, data.table::fread))
   res[,-2]
 }

@@ -8,7 +8,7 @@
 #' @keywords dataprep spg
 #' @export
 
-med.res_spg <- function(chr, med.data, matches,mediator.path) {
+med.res_spg <- function(chr, med.data, matches) {
     load(paste("data/mediator/mediation_", chr, "_new.RData", sep = ""))
     n = ncol(SNP.pc.data)
     SNP.name = colnames(SNP.pc.data)[-c(1, (n - 4):n)]

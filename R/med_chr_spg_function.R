@@ -15,6 +15,6 @@ med_chr_spg <-  function(chr, gene_matches,covar, simulations) {
                                           med.res.data = med.res.data, covar=covar, simulations = simulations))
         res.list[[i]] = ans
     }
-    results = data.table::rbindlist(res.list, idcol = "Chr")
+    results = data.table::rbindlist(res.list)
     results
 }

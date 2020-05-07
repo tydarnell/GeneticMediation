@@ -4,7 +4,7 @@
 \alias{med.res_spg}
 \title{SNP-Peak-Gene Mediation Data Prep}
 \usage{
-med.res_spg(chr, med.data, matches, mediator.path)
+med.res_spg(chr, med.data, matches)
 }
 \arguments{
 \item{chr}{chromosome name}
