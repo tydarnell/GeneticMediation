@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Significant SNP-Peak-Gene — sig_spg • GeneticMediation</title>
+<title>Mediation Results SNP-Peak-Gene — med_results_spg • GeneticMediation</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -52,9 +52,8 @@
 
 
 
-<meta property="og:title" content="Significant SNP-Peak-Gene — sig_spg" />
-<meta property="og:description" content="Obtain mediation results for significant SPG match for a chromosome as a list.
- This is needed for sensitivity analysis" />
+<meta property="og:title" content="Mediation Results SNP-Peak-Gene — med_results_spg" />
+<meta property="og:description" content="Obtain Mediation Results for Sensitivity Analysis" />
 <meta property="og:image" content="https://tydarnell.github.io/GeneticMediation/logo.png" />
 
 
@@ -160,28 +159,27 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Significant SNP-Peak-Gene</h1>
-    <small class="dont-index">Source: <a href='https://github.com/tydarnell/GeneticMediation/blob/master/R/sig_spg_function.R'><code>R/sig_spg_function.R</code></a></small>
-    <div class="hidden name"><code>sig_spg.Rd</code></div>
+    <h1>Mediation Results SNP-Peak-Gene</h1>
+    <small class="dont-index">Source: <a href='https://github.com/tydarnell/GeneticMediation/blob/master/R/med_results_spg_function.R'><code>R/med_results_spg_function.R</code></a></small>
+    <div class="hidden name"><code>med_results_spg.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Obtain mediation results for significant SPG match for a chromosome as a list.
- This is needed for sensitivity analysis</p>
+    <p>Obtain Mediation Results for Sensitivity Analysis</p>
     </div>
 
-    <pre class="usage"><span class='fu'>sig_spg</span>(<span class='no'>chr</span>, <span class='no'>sig_matches</span>)</pre>
+    <pre class="usage"><span class='fu'>med_results_spg</span>(<span class='no'>med.res.data</span>, <span class='no'>match_row</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>chr</th>
-      <td></td>
+      <th>med.res.data</th>
+      <td><p>mediation data</p></td>
     </tr>
     <tr>
-      <th>sig_matches</th>
-      <td></td>
+      <th>match_row</th>
+      <td><p>row of SNP-Peak-Gene matches</p></td>
     </tr>
     </table>
 

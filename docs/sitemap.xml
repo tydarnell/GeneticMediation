@@ -55,6 +55,9 @@
     <loc>https://tydarnell.github.io/GeneticMediation/reference/med_chr_spg.html</loc>
   </url>
   <url>
+    <loc>https://tydarnell.github.io/GeneticMediation/reference/med_results_spg.html</loc>
+  </url>
+  <url>
     <loc>https://tydarnell.github.io/GeneticMediation/reference/med_table_spc.html</loc>
   </url>
   <url>
@@ -64,10 +67,19 @@
     <loc>https://tydarnell.github.io/GeneticMediation/reference/merge_csv.html</loc>
   </url>
   <url>
+    <loc>https://tydarnell.github.io/GeneticMediation/reference/sens_list.html</loc>
+  </url>
+  <url>
+    <loc>https://tydarnell.github.io/GeneticMediation/reference/sens_summary.html</loc>
+  </url>
+  <url>
     <loc>https://tydarnell.github.io/GeneticMediation/reference/setup_folders.html</loc>
   </url>
   <url>
     <loc>https://tydarnell.github.io/GeneticMediation/reference/sig_chr_spg.html</loc>
+  </url>
+  <url>
+    <loc>https://tydarnell.github.io/GeneticMediation/reference/sig_spg.html</loc>
   </url>
   <url>
     <loc>https://tydarnell.github.io/GeneticMediation/reference/snp_peak_bychr.html</loc>
