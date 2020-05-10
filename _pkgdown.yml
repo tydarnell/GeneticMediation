@@ -15,7 +15,7 @@ navbar:
       href: http://linkedin.com/in/tydarnell
     Ty Darnell:
       text: "Ty Darnell"
-      href: "https://tydarnell.github.io"
+      href: "http://www.tydarnell.com"
     
   structure:
     left:  [home, reference, articles]
