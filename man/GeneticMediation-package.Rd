@@ -15,7 +15,7 @@ the ROSMAP study and preparing it for causal mediation analysis
 Useful links:
 \itemize{
   \item \url{https://github.com/tydarnell/GeneticMediation}
-  \item \url{https://tydarnell.github.io/GeneticMediation}
+  \item \url{http://www.tydarnell.com/GeneticMediation}
 }
 
 }

@@ -2,21 +2,21 @@
   "index_name": "geneticmediation",
   "start_urls": [
     {
-      "url": "https://tydarnell.github.io/GeneticMediation/index.html",
+      "url": "http://www.tydarnell.com/GeneticMediation/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://tydarnell.github.io/GeneticMediation/reference",
+      "url": "http://www.tydarnell.com/GeneticMediation/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://tydarnell.github.io/GeneticMediation/articles",
+      "url": "http://www.tydarnell.com/GeneticMediation/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -30,7 +30,7 @@
     "/articles/index.html"
   ],
   "sitemap_urls": [
-    "https://tydarnell.github.io/GeneticMediation/sitemap.xml"
+    "http://www.tydarnell.com/GeneticMediation/sitemap.xml"
   ],
   "selectors": {
     "homepage": {

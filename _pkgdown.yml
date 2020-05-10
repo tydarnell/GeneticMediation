@@ -7,7 +7,7 @@ template:
     ganalytics: UA-164663784-2
     bootswatch: cerulean
     
-url: https://tydarnell.github.io/GeneticMediation
+url: http://www.tydarnell.com/GeneticMediation
 navbar:
   components:
     linkedin:
