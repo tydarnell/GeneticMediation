@@ -3,7 +3,7 @@ pkgdown: 1.5.1
 pkgdown_sha: ~
 articles:
   DataSetup: DataSetup.html
-last_built: 2020-05-10T15:55Z
+last_built: 2020-05-10T16:00Z
 urls:
   reference: http://www.tydarnell.com/GeneticMediation/reference
   article: http://www.tydarnell.com/GeneticMediation/articles
